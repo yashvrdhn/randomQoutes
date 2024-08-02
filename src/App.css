@@ -2,7 +2,7 @@
   text-align: center;
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-image: url('https://cdn.pixabay.com/animation/2023/04/16/16/18/16-18-04-472_512.gif');
+  background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWxxazBpYm85NDEwbnY1YTI3N2c1aWwwM3k0OTZudWRxbG40ZDJteSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BHNfhgU63qrks/giphy.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,3 +23,15 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
